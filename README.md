@@ -1,6 +1,6 @@
 # agent-learning
 
-Agent 学习笔记与实践项目。
+Agent 学习日记笔记与项目。
 
 ## 目录结构
 
