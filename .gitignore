@@ -9,7 +9,23 @@ Desktop.ini
 *.swp
 *.swo
 
-# Node
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+.env.*
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+uv.lock
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Node（仅工具/脚本用到时生效）
 node_modules/
 npm-debug.log*
 yarn-error.log*
@@ -19,14 +35,6 @@ build/
 .nuxt/
 .cache/
 
-# Python
-__pycache__/
-*.py[cod]
-.venv/
-venv/
-.env
-.env.*
-
 # Logs
 *.log
 
@@ -35,3 +43,14 @@ venv/
 *.temp
 .temp/
 .tmp/
+
+# Secrets / credentials
+*.pem
+*.key
+*.p12
+*.pfx
+secrets/
+credentials/
+*.secret
+config.local.*
+.secrets.*
